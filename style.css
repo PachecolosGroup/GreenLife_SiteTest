@@ -215,8 +215,62 @@ h1 span{
         top: 40px;
         left: 10%;
     }
-    
-    
-    
+}
 
+/*Tablet */
+@media screen and (min-width: 429px) and (max-width: 1279px){
+    #hero{
+        padding:  10px 3%;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nav-items{
+        font-size: 20px;
+    }
+    .header-cta-btn{
+        font-size: 22px;
+    }
+    .hero-content {
+        display: block;
+        padding-top: 120px;
+        position: relative;
+    }
+
+    .left-content{
+        padding-top: 600px;
+    }
+    .left-content h1{
+        font-size: 3.5rem;
+        
+    }
+    .left-content p {
+        font-size: 22px;
+        width: 100%;
+    }
+    .hero-img {
+        width: 80%;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+    }
+    .big-cta-btn{
+        font-size: 20px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) and (max-width: 1919px){
+    #hero{
+        padding:  0 10%;
+        overflow: hidden;
+    }
 }
