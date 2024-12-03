@@ -167,6 +167,259 @@ h1 span{
     }
 }
 
+/*Cards*/
+
+#service {
+    padding: 75px 15%;
+    background-color: #f5f8f4bd;
+    overflow: hidden;
+}
+
+.section-title{
+    font-size: 2.5rem;
+    color: #228feb;
+    text-align: center;
+    margin-bottom: 30px;
+    animation: topIn 1s ease-in-out forwards;
+    opacity: 0;
+    animation-duration: 0.2s;
+}
+
+.service-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    
+}
+
+.card{
+    height: 280px;
+    width: 300px;
+    border: 2px solid #01b3b8;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgb(48, 137, 105, 0.5);
+    animation: zoomIn 1s ease-in-out forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+}
+
+.card-icn{
+    font-size: 4rem;
+    color: #228feb;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.card-info{
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+}
+
+.card-btn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #228feb;
+    padding: 8px 15px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+    background-color: #42a0ec;
+    transition: 0.2s;
+}
+
+/*About us Sectiom*/
+
+#about{
+    padding: 75px 15%;
+    overflow: hidden;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lef-about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-pic{
+ width: 100%; 
+ animation: zoomIn 1.2s ease-in-out forwards;
+ opacity: 0;
+ animation-delay: 0.2s;
+}
+
+.right-about-content p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+#about .section-title{
+    text-align: left;
+}
+
+.about-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #228feb;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.about-btn:hover{
+    background-color: #42a0ec;
+    transition: 0.2s;
+}
+
+/*Booking */
+
+#booking {
+    padding:  75px 15%;
+    overflow: hidden;
+    background-color: #f5f8f4bd;
+}
+
+.booking-content{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.right-booking{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.booking-img{
+    width: 60%;
+    animation: zoomIn 1 ease-in-out forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+}
+
+.lef-booking{
+    display: flex;
+    align-items: center;
+}
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #228feb;
+    border-radius: 20px;
+    padding: 50px 30px;
+    width: 100%;
+}
+.input-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #42a0ec;
+    margin-bottom: 50px;
+
+}
+ #booking input {
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    border: 2px solid #01b3b8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+ }
+
+ .submit-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    width: 50%;
+    text-align: center;
+    background-color: #228feb;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .submit-btn:hover{
+    background-color: #42a0ec;
+    transition: 0.2s;
+ }
+ .btn-cont{
+    display: flex;
+    justify-content: center;
+ }
+
+/*Footer*/
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 15%;
+    background-color: #e0dfdfd6;
+}
+
+#footer div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+.footer-item{
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-item i{
+    width: 20px;
+}
+
+#copyright{
+    padding: 5px;
+    background-color: #228feb;
+    color: white;
+}
+#copyright p{
+    text-align: center;
+}
+
+.footer-item:hover{
+    color: rgb(101, 96, 79);
+    transition: 0.2s;
+}
+
+
+
+
 /*Responsive CSS --- deberia ir en otro css, pero quiero test*/
 
 /*mOBILE*/
@@ -215,6 +468,64 @@ h1 span{
         top: 40px;
         left: 10%;
     }
+    
+    /*Section cards*/ 
+
+    #service {
+        padding: 50px 3%;
+    }
+    .service-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        height: 280px;
+        width: 250px;
+    }
+
+    /*About us*/
+
+    #about{
+        padding: 75px 3%;
+        
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column; 
+        gap: 40px;
+    }
+
+    /*Booking*/
+
+    #booking {
+        padding:  40px 3%;
+    }
+    .booking-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .booking-img{
+        display: none;
+    }
+
+    .input-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    /*Footer*/
+    #footer{
+        grid-template-columns: 1fr 1fr;
+        padding: 50px 4%;
+        row-gap:50px;
+    }
+    
+
+
+
 }
 
 /*Tablet */
@@ -265,6 +576,89 @@ h1 span{
     .big-cta-btn{
         font-size: 20px;
     }
+    /* Services cards section */
+    #service {
+        padding: 2%;
+        background-color: #f5f8f4bd;
+        overflow: hidden;
+    }
+    
+    .section-title{
+        font-size: 3rem;
+    }
+    
+    .service-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+
+     /*About us*/
+
+     #about{
+        padding: 75px 3%;
+        
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column; 
+        gap: 40px;
+    }
+
+    .right-about-content p{
+        font-size: 20px;
+    }
+    
+    .about-btn{
+        font-size: 20px;
+    }
+
+       /*Booking*/
+
+    #booking {
+        padding:  50px 3%;
+    }
+    .booking-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .booking-img{
+        display: none;
+    }
+
+    .input-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #booking input {
+        font-size: 20px;
+     }
+    
+     .submit-btn{
+        font-size: 20px;
+     }
+      /*Footer*/
+    #footer{
+        grid-template-columns: 1fr 1fr;
+        padding: 50px 4%;
+        row-gap:50px;
+    }
+    .footer-item{
+        font-size: 20px;
+    }
+    #copyright{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+
+
 }
 
 /* Desktop */

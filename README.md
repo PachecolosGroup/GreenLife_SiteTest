@@ -1,6 +1,18 @@
 # GreenLife_SiteTest
-Testing Html + CSS
 
+Testing Html + CSS, based on a image!
+
+Started: 29th of November 2024.
+Finished: 02th of December 2024.
+
+It was a really good excersice, looking and understanding the good use of classes, recalling them, flex box, aling element to the center, only when the main div is on flex. And learning how to use the @media for the responsive in three screens, Cellphone, Tablet and Desktop. 
+
+I'm very proud ngl...I'm improving! 
+
+الحمد لله
+
+
+******** Text and Information for the Mock up **********
 GreenLife
 
 Empowering Wellness Inspiring Sustainability 
