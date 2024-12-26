@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Righteous&display=swap'); */
 
 *{
     padding: 0;
@@ -170,7 +170,7 @@ h1 span{
 /*Cards*/
 
 #service {
-    padding: 75px 15%;
+    padding: 10%;
     background-color: #f5f8f4bd;
     overflow: hidden;
 }
@@ -179,7 +179,7 @@ h1 span{
     font-size: 2.5rem;
     color: #228feb;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     animation: topIn 1s ease-in-out forwards;
     opacity: 0;
     animation-duration: 0.2s;
@@ -446,12 +446,12 @@ h1 span{
     }
     .hero-content {
         display: block;
-        padding-top: 120px;
+        padding-top: 10px;
         position: relative;
     }
 
-    .left-content{
-        padding-top: 300px;
+    .left-booking{
+        padding-top: 30px;
         text-align: center;
     }
     .left-content h1{
@@ -475,10 +475,9 @@ h1 span{
         padding: 50px 3%;
     }
     .service-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;  
     }
     .card{
         height: 280px;
@@ -504,8 +503,7 @@ h1 span{
         padding:  40px 3%;
     }
     .booking-content{
-        display: flex;
-        flex-direction: column;
+        gap: 20px;
     }
     .booking-img{
         display: none;
@@ -557,10 +555,11 @@ h1 span{
     }
 
     .left-content{
-        padding-top: 600px;
+        padding: 2rem;
+        padding-top: 300px;
     }
     .left-content h1{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         
     }
     .left-content p {
@@ -588,10 +587,8 @@ h1 span{
     }
     
     .service-card{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 30px;
-        
+        grid-template-columns: 2fr;
+        place-items: center;
     }
     .card{
         margin-bottom: 30px;
@@ -607,6 +604,7 @@ h1 span{
     .about-content{
         display: flex;
         flex-direction: column; 
+        padding: 2rem;
         gap: 40px;
     }
 
@@ -621,7 +619,8 @@ h1 span{
        /*Booking*/
 
     #booking {
-        padding:  50px 3%;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
     .booking-content{
         display: flex;
